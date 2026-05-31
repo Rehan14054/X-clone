@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="src/output.css" />
+</head>
+
+<body class="bg-black text-white">
+  <div class="flex container mx-auto">
+    <div class="first w-[90%]">
+
+
+      <div class="sidebar flex items-end flex-col sticky top-0">
+        <div class="logo invert my-4 self-start mx-12">
+          <svg viewBox="0 0 24 24" aria-hidden="true"
+            class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+            <g>
+              <path
+                d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
+              </path>
+            </g>
+          </svg>
+        </div>
+
+        <ul class="flex  flex-col text-xl space-y-3 px-11 font-bold w-full">
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> home </span>Home
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> search </span>Explore
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl">notifications </span>Notification
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> chat </span>Message
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <svg viewBox="0 0 42 42" class="w-6 h-6 fill-white flex-shrink-0">
+              <g>
+                <path clip-rule="evenodd"
+                  d="M8 0C3.582 0 0 3.582 0 8v26c0 4.418 3.582 8 8 8h26c4.418 0 8-3.582 8-8V8c0-4.418-3.582-8-8-8H8zm19.997 17.35l-11.1 8.19 15.9-15.963v.015L37.391 5c-.082.117-.165.23-.248.345-3.49 4.804-5.194 7.153-3.826 13.03l-.009-.008c.943 4.001-.065 8.438-3.322 11.693-4.106 4.107-10.677 5.02-16.087 1.324l3.772-1.745c3.454 1.355 7.232.76 9.947-1.954 2.716-2.714 3.325-6.666 1.96-9.956-.259-.623-1.037-.78-1.58-.378zm-13.292-2.574c-3.314 3.31-3.983 9.047-.1 12.755l-.003.003L4 37c.663-.913 1.485-1.776 2.306-2.639l.04-.042c2.346-2.464 4.67-4.906 3.25-8.357-1.903-4.622-.795-10.038 2.73-13.56 3.664-3.66 9.06-4.583 13.568-2.729.998.37 1.867.897 2.545 1.387l-3.764 1.737c-3.505-1.47-7.52-.47-9.97 1.98z">
+                </path>
+              </g>
+            </svg>
+            Grok
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> list </span>Lists
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> Bookmarks </span>Bookmarks
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> Group </span>Communities
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> box </span>Premium
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> person </span>Profile
+          </li>
+          <li
+            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 px-4 py-1 hover:cursor-pointer hover:rounded-full">
+            <span class="material-symbols-outlined text-3xl"> More </span>More
+          </li>
+
+          <li>
+            <div class="button w-full text-center my-4">
+              <button class="hidden md:block bg-[#1d9bf0] px-20 text-xl rounded-full py-3 text-white">Post</button>
+
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="second w-full border-[1px] border-x-gray-600 border-y-black">
+      <div class="top flex p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-80">
+        <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
+        <div class="left bg-red-3001 w-1/2 flex justify-center font-bold text-lg">
+          For You
+        </div>
+        <div class="right bg-green-3001 w-1/2 flex justify-center font-bold text-lg">
+          Following
+        </div>
+        <div class="settings mx-2">
+          <span class="material-symbols-outlined"> settings </span>
+        </div>
+      </div>
+      <div class="h-[1px] w-full bg-gray-700"></div>
+      <div class="whatishapp flex gap-3 my-3">
+        <div class="img h-10 w-10">
+          <img
+            src="https://scontent.fbhv1-1.fna.fbcdn.net/v/t1.6435-1/117226090_624124278540445_5390504887622884061_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=110&ccb=1-7&_nc_sid=28885b&_nc_eui2=AeFuFVMHqegS-juqHbdZiF4ddK8W58ucMKN0rxbny5wwo1C8cXREsAyXiYOy0zxgobh4tYn_qsrsd-JLAvhP_lcT&_nc_ohc=A4CBGBppi0QQ7kNvwFwm--Q&_nc_oc=AdoFiH3vt7wVkYVle2BlRVL4uMBGgHjMYagSRyBuj8TTYvmzdWQz7_SK8EQPjfKgTsE&_nc_zt=24&_nc_ht=scontent.fbhv1-1.fna&_nc_gid=2WdqlwX0XFHniaUmvG-1Fg&_nc_ss=7b2a8&oh=00_Af4XtH02dSfgwIq6EIuYyMlkYz6AilG_uQ8wQJmcHDNUug&oe=6A1BB942"
+            alt="" class="w-full h-full rounded-full object-cover" />
+        </div>
+        <div class="w-full mt-3">
+          <input class="w-full text-xl bg-black outline-none text-white" type="text"
+            placeholder="What is happening?!" />
+          <div class="text-blue-400 flex items-center gap-1 w-full my-4">
+            <span class="material-symbols-outlined"> globe_asia </span>
+            <span class="font-bold">Everyone can reply</span>
+          </div>
+          <div class="w-[90%] h-[0.2px] bg-gray-700 my-3"></div>
+          <div class="flex justify-between">
+            <div class="blueicons flex gap-2 text-blue-400 items-center">
+              <span class="material-symbols-outlined cursor-pointer">
+                image
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                gif
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                ballot
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                sentiment_satisfied
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                calendar_month
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                pin_drop
+              </span>
+            </div>
+            <div class="postbtn">
+              <button class="bg-[#1d9bf0] px-6 mx-5 text-sm rounded-full py-2 text-white font-bold">
+                Post
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="posts">
+        <div class="post border-[1px] border-y-gray-600 border-x-0">
+          <div class="flex">
+            <div class="image m-4">
+              <img class="w-16 rounded-full"
+                src="https://scontent.fbhv1-1.fna.fbcdn.net/v/t1.6435-1/117226090_624124278540445_5390504887622884061_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=110&ccb=1-7&_nc_sid=28885b&_nc_eui2=AeFuFVMHqegS-juqHbdZiF4ddK8W58ucMKN0rxbny5wwo1C8cXREsAyXiYOy0zxgobh4tYn_qsrsd-JLAvhP_lcT&_nc_ohc=A4CBGBppi0QQ7kNvwFwm--Q&_nc_oc=AdoFiH3vt7wVkYVle2BlRVL4uMBGgHjMYagSRyBuj8TTYvmzdWQz7_SK8EQPjfKgTsE&_nc_zt=24&_nc_ht=scontent.fbhv1-1.fna&_nc_gid=2WdqlwX0XFHniaUmvG-1Fg&_nc_ss=7b2a8&oh=00_Af4XtH02dSfgwIq6EIuYyMlkYz6AilG_uQ8wQJmcHDNUug&oe=6A1BB942"
+                alt="" />
+            </div>
+            <div class="content my-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">Elon Musk</span>
+              <span class="text-gray-500">@ElonMusk · 6h </span>
+              <div class="postimg m-2 ml-0">
+                I spent $44 billion for this app and now Lizard boy just
+                decided to hit copy and paste. It’s personal now. See you in
+                the cage, Zuck.
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> chat_bubble </span>
+                  1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> repeat </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> Favorite </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> bar_chart </span>
+                  1k
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="flex">
+            <div class="image m-4">
+              <img class="w-12 rounded-full"
+                src="https://scontent.fbhv1-1.fna.fbcdn.net/v/t1.6435-1/117226090_624124278540445_5390504887622884061_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=110&ccb=1-7&_nc_sid=28885b&_nc_eui2=AeFuFVMHqegS-juqHbdZiF4ddK8W58ucMKN0rxbny5wwo1C8cXREsAyXiYOy0zxgobh4tYn_qsrsd-JLAvhP_lcT&_nc_ohc=A4CBGBppi0QQ7kNvwFwm--Q&_nc_oc=AdoFiH3vt7wVkYVle2BlRVL4uMBGgHjMYagSRyBuj8TTYvmzdWQz7_SK8EQPjfKgTsE&_nc_zt=24&_nc_ht=scontent.fbhv1-1.fna&_nc_gid=2WdqlwX0XFHniaUmvG-1Fg&_nc_ss=7b2a8&oh=00_Af4XtH02dSfgwIq6EIuYyMlkYz6AilG_uQ8wQJmcHDNUug&oe=6A1BB942"
+                alt="" />
+            </div>
+            <div class="content my-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">CodeWithHarry</span>
+              <span class="text-gray-500">@CodeWithHarry · 6h </span>
+              <div>Living legend</div>
+              <div class="postimg m-4 ml-0">
+                <img class="rounded-xl"
+                  src="data:image/jpeg;base64,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"
+                  alt="" />
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> chat_bubble </span>
+                  1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> repeat </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> Favorite </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> bar_chart </span>
+                  1k
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="flex">
+             <div class="image m-4">
+              <img class="w-12 rounded-full"
+                src="https://scontent.fbhv1-1.fna.fbcdn.net/v/t1.6435-1/117226090_624124278540445_5390504887622884061_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=110&ccb=1-7&_nc_sid=28885b&_nc_eui2=AeFuFVMHqegS-juqHbdZiF4ddK8W58ucMKN0rxbny5wwo1C8cXREsAyXiYOy0zxgobh4tYn_qsrsd-JLAvhP_lcT&_nc_ohc=A4CBGBppi0QQ7kNvwFwm--Q&_nc_oc=AdoFiH3vt7wVkYVle2BlRVL4uMBGgHjMYagSRyBuj8TTYvmzdWQz7_SK8EQPjfKgTsE&_nc_zt=24&_nc_ht=scontent.fbhv1-1.fna&_nc_gid=2WdqlwX0XFHniaUmvG-1Fg&_nc_ss=7b2a8&oh=00_Af4XtH02dSfgwIq6EIuYyMlkYz6AilG_uQ8wQJmcHDNUug&oe=6A1BB942"
+                alt="" />
+            </div>
+            <div class="content my-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">
+                non aesthetic things</span>
+              <span class="text-gray-500">@CodeMeme · 6h </span>
+              <div>This is amazing coding meme</div>
+              <div class="post img m-4 ml-0">
+                <img class="rounded-xl w-full"
+                  src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/works-doesnt-work.jpg"
+                  alt="" />
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> chat_bubble </span>
+                  1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> repeat </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> Favorite </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> bar_chart </span>
+                  1k
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="flex">
+           <div class="image m-4">
+              <img class="w-12 rounded-full"
+                src="https://scontent.fbhv1-1.fna.fbcdn.net/v/t1.6435-1/117226090_624124278540445_5390504887622884061_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=110&ccb=1-7&_nc_sid=28885b&_nc_eui2=AeFuFVMHqegS-juqHbdZiF4ddK8W58ucMKN0rxbny5wwo1C8cXREsAyXiYOy0zxgobh4tYn_qsrsd-JLAvhP_lcT&_nc_ohc=A4CBGBppi0QQ7kNvwFwm--Q&_nc_oc=AdoFiH3vt7wVkYVle2BlRVL4uMBGgHjMYagSRyBuj8TTYvmzdWQz7_SK8EQPjfKgTsE&_nc_zt=24&_nc_ht=scontent.fbhv1-1.fna&_nc_gid=2WdqlwX0XFHniaUmvG-1Fg&_nc_ss=7b2a8&oh=00_Af4XtH02dSfgwIq6EIuYyMlkYz6AilG_uQ8wQJmcHDNUug&oe=6A1BB942"
+                alt="" />
+            </div>
+            <div class="content my-3">
+              <span class="font-bold hover:underline cursor-pointer text-white">
+                non aesthetic things</span>
+              <span class="text-gray-500">@PicturesFoIder · 6h </span>
+              <div>legend</div>
+              <div class="postimg m-4 ml-0">
+                <img class="rounded-xl" src="https://pbs.twimg.com/media/GEGqnodacAAoyCO?format=jpg&name=900x900"
+                  alt="" />
+              </div>
+              <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> chat_bubble </span>
+                  1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> repeat </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> Favorite </span> 1k
+                </div>
+                <div
+                  class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                  <span class="material-symbols-outlined"> bar_chart </span>
+                  1k
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="third w-full bg-black">
+      <div class="search m-3">
+        <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-3 py-2" placeholder="search" />
+      </div>
+
+      <div class="whats sticky top-0 m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+        <h1 class="text-xl font-bold px-3">What's happening?</h1>
+        <div class="item my-3 p-3 hover:bg-gray-800 cursor:pointer">
+          <div class="text-sm text-gray-200">Trending in World</div>
+          <div class="font-bold">#Orry</div>
+          <div class="text-sm text-gray-200">40.2K Posts</div>
+        </div>
+
+        <div class="item my-3 p-3 hover:bg-gray-800 cursor:pointer">
+          <div class="text-sm text-gray-200">Trending in World</div>
+          <div class="font-bold">#Putin</div>
+          <div class="text-sm text-gray-200">55.5K Posts</div>
+        </div>
+
+        <div class="item my-3 p-3 hover:bg-gray-800 cursor:pointer">
+          <div class="text-sm text-gray-200">Trending in World</div>
+          <div class="font-bold">#Iran</div>
+          <div class="text-sm text-gray-200">401.2K Posts</div>
+        </div>
+
+        <div class="item my-3 p-3 hover:bg-gray-800 cursor:pointer">
+          <div class="text-sm text-gray-200">Trending in World</div>
+          <div class="font-bold">#Harmoz</div>
+          <div class="text-sm text-gray-200">43.2K Posts</div>
+        </div>
+      </div>
+
+      <div class="who sticky top-[58vh] m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+        <h1 class="text-xl font-bold px-3">Who to follow?</h1>
+
+        <div class="item p-3 px-3 space-y-4">
+          <div class="font-bold hover:cursor-pointer text-gray-200">IRGC</div>
+          <div class="font-bold hover:cursor-pointer text-gray-200">
+            Cristiano Ronaldo
+          </div>
+          <div class="font-bold hover:cursor-pointer text-gray-200">
+            Toyota
+          </div>
+        </div>
+
+        <div class="text-blue-600 hover:cursor-pointer px-3">Show more</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
